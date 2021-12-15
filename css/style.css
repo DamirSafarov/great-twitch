@@ -1056,6 +1056,11 @@ body {
           flex-direction: column;
 }
 
+.video-responsive.active1.active2 {
+  width: 93%;
+  margin: 0 auto;
+}
+
 .info-center {
   max-width: 905px;
   padding: 40px;
@@ -1233,7 +1238,7 @@ body {
 
 @media only screen and (max-width: 1460px) {
   .video-responsive {
-    width: 76%;
+    width: 80%;
   }
 }
 
@@ -1255,6 +1260,12 @@ body {
 @media only screen and (max-width: 1330px) {
   .video-responsive {
     width: 74.5%;
+  }
+}
+
+@media only screen and (max-width: 1390px) {
+  .left-bar_hidden {
+    left: -14%;
   }
 }
 
